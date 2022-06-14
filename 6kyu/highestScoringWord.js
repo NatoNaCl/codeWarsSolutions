@@ -61,7 +61,7 @@ function high(x) {
 
     //iterate over words to get each letter
     for (let letter of word) {
-      lettersSum += alphabets.indexOf(letter) + 1;
+      lettersSum += alphabet.indexOf(letter) + 1;
     }
 
     //compare score of each word, concatenate to empty string
