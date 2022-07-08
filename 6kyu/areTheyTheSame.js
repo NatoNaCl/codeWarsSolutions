@@ -40,11 +40,11 @@ number of a.
 //Input: 2 arrays
 //Output: boolean true or false
 //Plan:
-//iterate over 1st array
-//square each value
-//iterate over 2nd array
-//compare square of 1st array values with 2nd array values
-//if match, return true, else false
+//first check if parameters are null, return false
+//sort both arrays from least to greatest
+//iterate over first array
+//check if each value in first array squared != 2nd array value, false
+//else return true
 
 function comp(array1, array2) {
   if (array1 === null || array2 === null) {
